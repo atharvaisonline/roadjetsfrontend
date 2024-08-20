@@ -1,0 +1,214 @@
+.navbar{
+    margin: 0 20px;
+}
+.nav-title{
+    border-radius: 8px;
+    background: #FFF500;
+    font-size: 18px;
+    padding: 14px 14px;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+text-align: center;
+display: flex;
+cursor: pointer;
+}
+#arrow-icon{
+    font-size: 17px;
+    padding-bottom: 2px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.links{
+    display: flex;
+    margin: auto;
+}
+.links div{
+    padding: 10px 24px;
+    cursor: pointer;
+}
+.signup-in{
+    margin-right: 30px;
+}
+.signup-in button{
+    padding: 14px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+}
+#signup-btn{
+    background: var(--white-97, #F7F7F8);    border: 0px;
+}
+#login-btn{
+    background: #FFF500;
+    border: #FFF500;
+    padding: 14px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.service-book{
+    display: flex;
+}
+#sidebar{
+    display: none;
+}
+
+.navigatelink {
+    text-decoration: none;
+    color: black;
+}
+
+.loggedUser {
+    margin-right: 40px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoutbtn {
+    height: 40px;
+    width: 70px;
+    background-color: yellow;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 651px) {
+    .service-book {
+        display: block;
+    }
+    .nav-title{
+        font-size: 16px;
+    }
+    #side-select{
+        color: rgb(0, 0, 0);
+        background-color: yellow;
+      }
+    .navbar #signup-btn{
+        width: 75px;
+        padding: 8px 2px;
+    }
+    .navbar .signup-in {
+        margin-right: 15px;
+        width: 248px;
+    }
+    .navbar #login-btn{
+        width: 75px;
+        padding: 8px 5px;
+    }
+    .signup-in {
+        margin: auto;
+    }
+    .nav-links{
+        justify-content: space-between;
+        margin-top: 22px;
+        margin-bottom: 50px;
+    }
+    .ourservices {
+        margin: 56px 9%;
+    }
+    .logo img{
+        width: 90%;
+    }
+    .links{
+        display: none;
+    }
+    #sidebar{
+        display: block;
+    }
+    .Navbar_coontainer {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 2;
+    }
+    .Navbar_hambergure_icon {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+    .Eventlist_speakerore_sidebar_empty_div {
+        position: absolute;
+        z-index: 2;
+        top: 36px;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+        background-color: #59ff0000;
+      }
+      .Navbar_sidebar>div>div {
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .Navbar_sidebar>div>div>img {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        margin-top: 40px;
+    
+    }
+    .Navbar_sidebar {
+        z-index: 3;
+          width: 70%;
+          height: 100vh;
+          background-color: #F7F7F7;
+          position: fixed;
+          top: 0px;
+          right: -70%;
+          display: none;
+          /* box-shadow: -20px 30px 100px 0px #e4ffd8; */
+      
+          /* transition: transform 0.3s; */
+      }
+      .Navbar_inputfield {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    
+    .Navbar_inputfield a{
+        text-decoration: none;
+    }
+    .Navbar_inputfield>div {
+        width: 80%;
+        margin-top: 100px;
+        /* justify-content: center; */
+    }
+    
+    .Navbar_inputfield>div>input {
+        height: 30px;
+        width: 90%;
+        margin: 10px 0px 10px 0px;
+        border-radius: 5px;
+        border: none;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    .Navbar_inputfield>div>input:nth-child(1) {
+        background-color: #EF7676;
+    }
+    .nav-select{
+        height: 30px;
+        width: 90%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        padding: 5px 10px 5px 10px ;
+        border-radius: 5px;
+        border: none;
+        margin: 10px 0px 10px 0px;
+        color: #666666;
+    }
+}

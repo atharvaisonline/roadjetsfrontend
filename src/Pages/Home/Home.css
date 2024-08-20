@@ -1,0 +1,474 @@
+.heading {
+  text-align: center;
+  align-items: center;
+}
+.icon-box {
+  padding: 2px 12px;
+  background: #fff500;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#lightning {
+  font-size: 20px;
+}
+.head2 {
+  font-weight: 500;
+}
+.home-btn {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.ourservices {
+  margin: 100px 9%;
+}
+.head-serve {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head-serve h1 {
+  margin-bottom: 0px;
+}
+.head-serve p {
+  margin-top: 0px;
+}
+.white-btn {
+  padding: 14px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  background: white;
+  border: 0px;
+}
+.homeservice {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 20px;
+  gap: 20px;
+}
+.heading .home-btn{
+  margin-top: 30px;
+}
+.service-model {
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+}
+.service-model img {
+  width: 100%;
+}
+.layer2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.layer2 button {
+  cursor: auto;
+  padding: 10px 15px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--white-95, #f1f1f3);
+  background: var(--absolute-white, #fff);
+}
+.layer3 {
+  margin-top: 40px;
+}
+.layer3 h3 {
+  margin-bottom: 0;
+}
+.layer3 p {
+  margin-top: 10px;
+}
+.book-btn {
+  border-radius: 20px;
+  border: 1px solid var(--white-95, #f1f1f3);
+  background: #fff500;
+  width: 100%;
+  padding: 16px 20px;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.whyroadjets {
+  margin: 80px 9%;
+}
+.why-all {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 20px;
+  gap: 15px;
+}
+.why-model {
+  border-radius: 10px;
+  padding: 50px 30px;
+  background: #fff500;
+}
+.number {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.arrow-img {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+#white-back {
+  background: var(--absolute-white, #fff);
+}
+.knowus {
+  margin: 150px 9%;
+}
+.big-btn button {
+  border-radius: 40px;
+  background: #fff500;
+  width: 422px;
+  height: 83px;
+  border: #fff500;
+  font-size: 35px;
+  font-weight: 600;
+}
+.knowmodel-cont {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 20px;
+  gap: 15px;
+}
+.know-model {
+  border-radius: 10px;
+  padding: 20px 10px;
+  background-color: #fff;
+}
+#know-model{
+  background-color: #fff500;
+}
+#know-model .read{
+  background-color: #F7F7F8;
+}
+.know1 {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 40px;
+  height: 66%;
+}
+.know1 p {
+  padding: 0 40px;
+  margin-top: 0;
+}
+.know-img{
+  font-size: 50px;
+  font-weight: 700;
+}
+.in-bold {
+  font-weight: 600;
+  color: var(--grey-30, #4c4c4d);
+  font-size: 26px;
+  display: block;
+  letter-spacing: 0.1px;
+  font: Be Vietnam Pro;
+}
+.know2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px 30px 20px;
+}
+.expert {
+  color: var(--grey-20, #333);
+  font-weight: 600;
+  line-height: 150%; /* 27px */
+}
+.read {
+  color: var(--grey-20, #333);
+  font-weight: 600;
+  line-height: 150%;
+  border-radius: 8px;
+  border: 1px solid var(--white-95, #f1f1f3);
+  background: var(--white-97, #fff500);
+  display: flex;
+  padding: 14px 19px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.afford {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.afford-img img {
+  width: 70%;
+}
+#over-btn {
+  border-radius: 40px;
+  background: rgba(255, 245, 0, 0.23);
+  width: 632.851px;
+}
+.afford-text h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 3% 10%;
+  font-size: 30px;
+  text-align: left;
+}
+.faq {
+  margin: 7%;
+  background: #fff;
+  padding: 4%;
+  display: flex;
+  justify-content: space-around;
+}
+.frequently {
+  position: relative;
+}
+.in-frequently {
+  position: absolute;
+  top: 87px;
+  left: 80px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  color: var(--grey-15, #262626);
+}
+.square-box {
+  margin: 40px 0 0 0;
+  width: 380px;
+  height: 280px;
+  background: #fff500;
+  border-radius: 12px;
+}
+
+.square-box img {
+  width: 380px;
+  height: 280px;
+}
+
+.faq-child1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+}
+#afford-btn {
+  width: 550px;
+}
+
+.roadjetbanner {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+
+.roadjetbanner div {
+  height: 60%;
+  width: 65%;
+  border-radius: 20px;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+}
+
+.roadjetbanner img {
+  width: 50%;
+  border-radius: 5%;
+}
+
+.directionhomearrow {
+  margin: 0 10px 0 0;
+}
+
+@media screen and (max-width: 651px) {
+  .homeservice {
+    grid-template-columns: auto;
+  }
+  #afford-btn {
+    width: 250px;
+    font-size: 25px;
+    height: 70px;
+  }
+  #over-btn {
+    width: 300px;
+    height: 70px;
+  }
+  .afford-text h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .big-btn button {
+    width: 280px;
+    font-size: 25px;
+    height: 60px;
+  }
+  .heading h1 {
+    font-size: 28px;
+    margin: 0 20px;
+  }
+  .head2 {
+    font-size: 23px;
+    margin: 10px;
+  }
+  .home-btn {
+    margin-top: 40px;
+  }
+  .white-btn {
+    padding: 14px 6px;
+    width: 74px;
+    font-size: 15px;
+  }
+  
+  .head-serve h1 {
+    margin-bottom: 20px;
+  }
+  .number {
+    height: 54px;
+  }
+  .arrow-img {
+    margin-top: 26px;
+  }
+
+
+  .head-serve {
+    display: block;
+  }
+
+  .know1 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .knowus {
+    margin: 81px 0%;
+  }
+  .knowus .big-btn,
+  .head-serve {
+    margin-left: 45px;
+  }
+  .know1 p {
+    padding: 0 0 0 22px;
+    margin-top: 0;
+  }
+  .know2 {
+    /* padding: 20px; */
+    padding: 20px 16px 10px;
+  }
+  .read {
+    width: 155px;
+    text-align: center;
+  }
+
+  
+  .frequently svg {
+    width: 300px;
+    height: 200px;
+  }
+  .in-frequently {
+    top: 74px;
+    left: 59px;
+    font-size: 23px;
+    text-align: center;
+  }
+  
+  .faq-item {
+    width: 87% !important;
+  }
+  .toggle-btn {
+    margin-left: 20px;
+  }
+  .ourservices .head-serve {
+    margin-left: 0;
+  }
+  .whyroadjets .head-serve {
+    margin-left: 0;
+  }
+  
+  .square-box {
+    margin: 40px 0 0 0;
+    width: 300px;
+    height: 220px;
+    background: #fff500;
+    border-radius: 12px;
+  }
+  
+  .square-box img {
+    width: 300px;
+    height: 220px;
+  }
+
+  .roadjetbanner div {
+    height: 60%;
+    width: 65%;
+    border-radius: 20px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .roadjetbanner img {
+    height: 70%;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .faq {
+    display: block;
+    margin: 120px 0 70px;
+  }
+  .faq-child1 {
+    width: auto;
+  }
+  .why-all {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .knowmodel-cont {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .knowmodel-cont {
+    width: 96%;
+    margin: 0 2%;
+  }
+  .mobile-yellow{
+    background-color: #fff500 !important;
+  }
+  .mobile-yellow .read{
+    background-color: white;
+  }
+  .mobile-white{
+    background-color: white !important;
+  }
+  .mobile-white .read{
+    background-color: #fff500 !important;
+  }
+  .know-img{
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .know-model{
+    padding: 20px 10px;
+    margin: 0 5%;
+    font-size: smaller;
+  }
+  .knowus {
+    margin: 20px 0%;
+}
+.in-bold{
+  font-size: 22px;
+}
+}
